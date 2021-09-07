@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>REACT DEFINITION</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".accordion_body .li_qus").click(function () {
+				$(this).parent().toggleClass("active");
+			});
+		})
+	</script>
+</head>
+
+<body>
+
+
+	<div class="wrapper">
+		<div class="accordion_container">
+			<div class="accordion_header">
+				QUESTION / ANSWER
+			</div>
+			<div class="accordion_body">
+				<ul>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>What is React??? </p>
+						</div>
+						<div class="li_ans">
+							React is a free front-end JavaScript library for building user interfaces or UI components.
+							It
+							is maintained by Facebook and a community of individual developers. It is used as in the
+							development of single-page ..
+						</div>
+					</li>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>What is Single Page Application (SPA)</p>
+						</div>
+						<div class="li_ans">
+							A single-page application (SPA) is a web application or website that interacts with the user
+							by
+							dynamically , instead of the default method of a web browser loading entire new pages.
+						</div>
+					</li>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>What is Multi Page Application (MPA) </p>
+						</div>
+						<div class="li_ans">
+							A web application that reloads the entire page whenever the user interacts with the
+							website.Each
+							time that the data is exchanged, the application makes a request from the server to get data
+							again and again..
+						</div>
+					</li>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>SPA VS MPA</p>
+						</div>
+						<div class="li_ans">
+							SPA are becoming popular day by day.. Facebook, YouTube, Twitter, GitHub, and numerous
+							Google's
+							services are all built using the SPA tech .. MPA are not popular yet because these websites
+							transfer a lot of data from server to client and client to server, hence they are low on
+							speed..
+						</div>
+					</li>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>ANGULAR VS  REACT</p>
+						</div>
+						<div class="li_ans">
+							AngularJS is a structural framework for developing dynamic web apps, whereas React is a
+                        javascript library that allows you to build UI components.Angular JS is based on MVC (Model View
+                        Controller) whereas React is based on Virtual DOM.. 
+						</div>
+					</li>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>Library VS FRAMEWORK</p>
+						</div>
+						<div class="li_ans">
+							Library is a resuable functions used by computer programs. They are important in program
+                        linking and binding process...<br> A Framework is a structure around which something can be
+                        built.. 
+						</div>
+					</li>
+					<li>
+						<div class="li_qus">
+							<div class="btn"></div>
+							<p>DOM VS VIRTUAL DOM</p>
+						</div>
+						<div class="li_ans">
+							A DOM represents the page so that programs can change the document structure, style, and content. ... <br> The Virtual DOM is a light-weight abstraction of the DOM. It as a copy of the
+							DOM, that can be updated without affecting the actual DOM.. 
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
